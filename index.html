@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+      <!-- Required responsive meta tags get it from https://getbootstrap.com/docs/4.4/getting-started/introduction/-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+        <!--This is how the grid system works in bootstrap https://getbootstrap.com/docs/4.4/layout/grid/-->
+      <div class="container d-flex align-items-center h-100"> <!--To take text in the middle of the image we need to use flex to place vertically in the center-->
+        <!--Warp this section in a div row-->
+        <div class="row">
+          <!--This is header section-->
+          <header class="text-center col-12">
+            <h1 class="text-uppercase"><strong> The biggest startup event of the year</strong></h1> <!--Class to make the text uppercase-->
+          </header>
+          <!--Need to add buffer between heading and button-->
+          <div class="buffer col-12"></div>
+           <!--This is section-->
+          <section class="text-center col-12">
+            <hr>
+            <a href="https://toolmetric.in/contact-us/" target="_blank"
+            <button class="btn btn-primary btn-xl">Find out more</button>
+            </a>
+          </section>
+          
+        </div>
+       
+      </div>
+      
+  </body>
+</html>
